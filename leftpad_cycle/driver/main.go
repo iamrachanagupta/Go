@@ -12,4 +12,5 @@ func main() {
 	fmt.Println(leftpad.Format("Internationalization", 15))
 	fmt.Println(leftpad.FormatRune("Hello", 15, '😃'))
 	fmt.Println(leftpad.FormatRune("Goodbye", 15, '😃'))
+	fmt.Println(leftpad.FormatRune("RachanaGupta", 15, '😃'))
 }

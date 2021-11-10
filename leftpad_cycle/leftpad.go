@@ -12,7 +12,7 @@ var default_char = ' '
 // Format takes in a string and an int and returns the string
 // left-padded with spaces to the length of the int. If the
 // string is already longer than the specified length, the
-// original string is returned.
+// original string is returned. This function is referencing package cycle
 func Format(s string, size int) string {
 	return FormatRune(s, size, cycle.DEFAULT_CHAR)
 }
