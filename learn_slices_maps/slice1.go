@@ -19,4 +19,15 @@ func main() {
 	fmt.Println("contents of s2[1]:", s2[1]) //outputs: contents of s2[0]:
 	fmt.Println("contents of s2[2]:", s2[2]) //outputs: contents of s2[2]: hello
 	fmt.Println("length of s2:", len(s2))    //outputs:  length of s2: 3
+	
+	s2 = append(s2, "Rachana")
+	fmt.Println("contents of s2[0]:", s2[0]) //outputs: contents of s2[0]:
+	fmt.Println("contents of s2[1]:", s2[1]) //outputs: contents of s2[0]:
+	fmt.Println("contents of s2[2]:", s2[2]) //outputs: contents of s2[2]: hello
+	fmt.Println("contents of s2[3]:", s2[3]) //outputs: contents of s2[3]: Rachana
+	fmt.Println("length of s2:", len(s2))    //outputs:  length of s2: 4
+	s2[0] = "Hi"
+	s2[1] = "there"
+	fmt.Println("contents of s2[0]:", s2[0]) //outputs: contents of s2[0]: Hi
+	fmt.Println("contents of s2[1]:", s2[1]) //outputs: contents of s2[0]: there
 }
